@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1138.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <right>
+      <GridPane maxHeight="494.0" maxWidth="506.0" minHeight="494.0" minWidth="250.0" prefHeight="494.0" prefWidth="501.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="264.0" minHeight="10.0" prefHeight="243.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="159.0" minHeight="10.0" prefHeight="86.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0" GridPane.rowIndex="2">
+               <children>
+                  <Button mnemonicParsing="false" text="Construire" />
+                  <Button mnemonicParsing="false" text="Abandonner" />
+               </children>
+               <padding>
+                  <Insets left="90.0" top="45.0" />
+               </padding>
+            </VBox>
+            <ChoiceBox prefWidth="150.0" />
+            <ChoiceBox prefWidth="150.0" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+   </right>
+   <center>
+      <BorderPane maxHeight="610.0" maxWidth="610.0" minHeight="610.0" minWidth="610.0" prefHeight="610.0" prefWidth="610.0" style="-fx-background-image: url(&quot;plateau_monopoly.jpg&quot;);" BorderPane.alignment="CENTER">
+         <bottom>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="610.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="80.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/VisitePrison.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Republique.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Courcelles.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/chance1.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Vaugirard.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Montparnasse.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Impot.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Lecourbe.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/caisse1.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Belleville.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Depart.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </bottom>
+         <top>
+            <HBox prefHeight="65.0" prefWidth="494.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="80.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Parc.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Matignon.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/chance2.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Malesherbes.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Henri-Martin.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Nord.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Saint-Honore.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Bourse.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Eaux.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="50.0">
+                     <image>
+                        <Image url="@images/Lafayette.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/AllezPrison.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </top>
+         <left>
+            <VBox prefHeight="364.0" prefWidth="65.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Pigalle.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Saint-Michel.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/caisse2.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Mozart.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Lyon.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Paradis.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Neuilly.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Electricite.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Villette.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </left>
+         <right>
+            <VBox prefHeight="460.0" prefWidth="80.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Breteuil.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Foch.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/caisse3.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Capucines.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Saint-Lazare.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/chance3.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Champs-Elysees.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Taxe.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="80.0">
+                     <image>
+                        <Image url="@images/Paix.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </right>
+         <center>
+            <ImageView fitHeight="450.0" fitWidth="450.0" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@images/Centre.jpg" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+   </center>
+   <left>
+      <Pane maxHeight="0.0" maxWidth="0.0" minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="0.0" BorderPane.alignment="CENTER" />
+   </left>
+   <bottom>
+      <ScrollPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+   </bottom>
+</BorderPane>

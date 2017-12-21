@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javafx.stage.Stage"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.GridPane"/>
+<fullyQualifiedTypeName name="javafx.scene.Scene"/>
+<fullyQualifiedTypeName name="java.awt.Button"/>
+<fullyQualifiedTypeName name="javafx.scene.Node"/>
+<fullyQualifiedTypeName name="javafx.scene.text.Text"/>
+<fullyQualifiedTypeName name="Jeu.Case"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="Monopoly.GoToJail"/>
+<fullyQualifiedTypeName name="Monopoly.CaisseCommunaute"/>
+<fullyQualifiedTypeName name="Monopoly.Terrain"/>
+<fullyQualifiedTypeName name="Monopoly.Taxe"/>
+<fullyQualifiedTypeName name="Exceptions.JoueurRuineException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="Monopoly.ServicePublic"/>
+<fullyQualifiedTypeName name="Monopoly.ParcGratuit"/>
+<fullyQualifiedTypeName name="Monopoly.Divers"/>
+<fullyQualifiedTypeName name="Monopoly.Propriete"/>
+<fullyQualifiedTypeName name="Monopoly.CaseCarte"/>
+<fullyQualifiedTypeName name="java.io.DataInputStream"/>
+<fullyQualifiedTypeName name="Monopoly.Carte"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="Monopoly.CarteDeplacement"/>
+<fullyQualifiedTypeName name="Monopoly.CarteLibererJail"/>
+<fullyQualifiedTypeName name="Monopoly.JoueurMonopoly"/>
+<fullyQualifiedTypeName name="Monopoly.PlateauMonopoly"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="Monopoly.Partie"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,31 @@
+classe joueur
+	nom
+	argent possédé
+	array propriétés possédées
+	en prison
+	position
+
+classe abstraite case
+	classe propriété
+		classe maison
+		loyer	
+	classe gare
+		prix
+		loyer
+	classe taxes
+		prix
+	classe chance
+	classe caisse de communauté
+	classe prison
+	classe aller en prison
+	classe parc gratuit
+	classe départ
+	
+
+classe partie
+	array nb joueurs
+	dé
+	argent banque
+	array propriétés non possédées
+	
+	
